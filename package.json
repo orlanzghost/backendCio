@@ -1,0 +1,24 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "backend de la plataforma de gestion de articulos del cio",
+    "main": "index.js",
+    "scripts": {
+        "start": "node .",
+        "dev": "nodemon ."
+    },
+    "author": "Orlando Verdin",
+    "license": "ISC",
+    "dependencies": {
+        "apollo-server": "^2.19.0",
+        "bcryptjs": "^2.4.3",
+        "csv-parse": "^4.15.0",
+        "csv-parser": "^3.0.0",
+        "dotenv": "^8.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.11.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
